@@ -12,4 +12,7 @@ public fatih() {    PageFactory.initElements(Driver.get(),this);}
     @FindBy (id = "dd")
     public WebDriver aa;
 
+    @FindBy (id = "dd")
+    public WebDriver thisIsMyOmersLocator;
+
 }
