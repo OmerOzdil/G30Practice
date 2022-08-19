@@ -17,4 +17,8 @@ public class ContactInfoPage extends BasePage {
     @FindBy(css="a.name")
     public WebElement name;
 
+    @FindBy(css="a.name")
+    public WebElement newLocator;
+
+
 }
