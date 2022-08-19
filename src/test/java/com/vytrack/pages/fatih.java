@@ -15,7 +15,11 @@ public class fatih {
     @FindBy(id = "dd")
     public WebDriver aa;
 
+    @FindBy (id = "dd")
+    public WebDriver thisIsMyOmersLocator;
+
     @FindBy(id = "atasoy")
     public WebElement thisIsAtasoyLocater;
+
 
 }
